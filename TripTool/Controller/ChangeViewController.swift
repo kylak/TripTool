@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  TripTool
 //
 //  Created by Gustav Berloty on 14/01/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ChangeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

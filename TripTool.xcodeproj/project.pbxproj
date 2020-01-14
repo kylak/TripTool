@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		4F21877123CDFD740011ECA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21877023CDFD740011ECA4 /* AppDelegate.swift */; };
 		4F21877323CDFD740011ECA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21877223CDFD740011ECA4 /* SceneDelegate.swift */; };
-		4F21877523CDFD740011ECA4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21877423CDFD740011ECA4 /* FirstViewController.swift */; };
-		4F21877723CDFD740011ECA4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21877623CDFD740011ECA4 /* SecondViewController.swift */; };
+		4F21877523CDFD740011ECA4 /* ChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21877423CDFD740011ECA4 /* ChangeViewController.swift */; };
+		4F21877723CDFD740011ECA4 /* TraductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21877623CDFD740011ECA4 /* TraductionViewController.swift */; };
 		4F21877A23CDFD740011ECA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F21877823CDFD740011ECA4 /* Main.storyboard */; };
 		4F21877C23CDFD7A0011ECA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F21877B23CDFD7A0011ECA4 /* Assets.xcassets */; };
 		4F21877F23CDFD7A0011ECA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F21877D23CDFD7A0011ECA4 /* LaunchScreen.storyboard */; };
+		4F21879123CE042B0011ECA4 /* MeteoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21879023CE042B0011ECA4 /* MeteoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F21876D23CDFD740011ECA4 /* TripTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F21877023CDFD740011ECA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F21877223CDFD740011ECA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F21877423CDFD740011ECA4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4F21877623CDFD740011ECA4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4F21877423CDFD740011ECA4 /* ChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewController.swift; sourceTree = "<group>"; };
+		4F21877623CDFD740011ECA4 /* TraductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraductionViewController.swift; sourceTree = "<group>"; };
 		4F21877923CDFD740011ECA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F21877B23CDFD7A0011ECA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F21877E23CDFD7A0011ECA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F21878023CDFD7A0011ECA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F21879023CE042B0011ECA4 /* MeteoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,49 @@
 		4F21876F23CDFD740011ECA4 /* TripTool */ = {
 			isa = PBXGroup;
 			children = (
-				4F21877023CDFD740011ECA4 /* AppDelegate.swift */,
-				4F21877223CDFD740011ECA4 /* SceneDelegate.swift */,
-				4F21877423CDFD740011ECA4 /* FirstViewController.swift */,
-				4F21877623CDFD740011ECA4 /* SecondViewController.swift */,
-				4F21877823CDFD740011ECA4 /* Main.storyboard */,
-				4F21877B23CDFD7A0011ECA4 /* Assets.xcassets */,
-				4F21877D23CDFD7A0011ECA4 /* LaunchScreen.storyboard */,
+				4F21878723CDFE480011ECA4 /* Model */,
+				4F21878623CDFE240011ECA4 /* View */,
+				4F21878823CDFE4F0011ECA4 /* Controller */,
+				4F21878923CDFE630011ECA4 /* autres */,
 				4F21878023CDFD7A0011ECA4 /* Info.plist */,
 			);
 			path = TripTool;
+			sourceTree = "<group>";
+		};
+		4F21878623CDFE240011ECA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F21877823CDFD740011ECA4 /* Main.storyboard */,
+				4F21877D23CDFD7A0011ECA4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F21878723CDFE480011ECA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F21878823CDFE4F0011ECA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F21877423CDFD740011ECA4 /* ChangeViewController.swift */,
+				4F21877623CDFD740011ECA4 /* TraductionViewController.swift */,
+				4F21879023CE042B0011ECA4 /* MeteoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4F21878923CDFE630011ECA4 /* autres */ = {
+			isa = PBXGroup;
+			children = (
+				4F21877023CDFD740011ECA4 /* AppDelegate.swift */,
+				4F21877223CDFD740011ECA4 /* SceneDelegate.swift */,
+				4F21877B23CDFD7A0011ECA4 /* Assets.xcassets */,
+			);
+			path = autres;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F21877723CDFD740011ECA4 /* SecondViewController.swift in Sources */,
-				4F21877523CDFD740011ECA4 /* FirstViewController.swift in Sources */,
+				4F21879123CE042B0011ECA4 /* MeteoViewController.swift in Sources */,
+				4F21877723CDFD740011ECA4 /* TraductionViewController.swift in Sources */,
+				4F21877523CDFD740011ECA4 /* ChangeViewController.swift in Sources */,
 				4F21877123CDFD740011ECA4 /* AppDelegate.swift in Sources */,
 				4F21877323CDFD740011ECA4 /* SceneDelegate.swift in Sources */,
 			);
