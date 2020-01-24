@@ -15,6 +15,7 @@
 		4F21877C23CDFD7A0011ECA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F21877B23CDFD7A0011ECA4 /* Assets.xcassets */; };
 		4F21877F23CDFD7A0011ECA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F21877D23CDFD7A0011ECA4 /* LaunchScreen.storyboard */; };
 		4F21879123CE042B0011ECA4 /* MeteoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21879023CE042B0011ECA4 /* MeteoViewController.swift */; };
+		4FA100C323CF4F1B006C8CF9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA100C223CF4F1B006C8CF9 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4F21877E23CDFD7A0011ECA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F21878023CDFD7A0011ECA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F21879023CE042B0011ECA4 /* MeteoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoViewController.swift; sourceTree = "<group>"; };
+		4FA100C223CF4F1B006C8CF9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		4F21878723CDFE480011ECA4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4FA100C223CF4F1B006C8CF9 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				4F21879123CE042B0011ECA4 /* MeteoViewController.swift in Sources */,
 				4F21877723CDFD740011ECA4 /* TraductionViewController.swift in Sources */,
 				4F21877523CDFD740011ECA4 /* ChangeViewController.swift in Sources */,
+				4FA100C323CF4F1B006C8CF9 /* Model.swift in Sources */,
 				4F21877123CDFD740011ECA4 /* AppDelegate.swift in Sources */,
 				4F21877323CDFD740011ECA4 /* SceneDelegate.swift in Sources */,
 			);
@@ -334,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CoursOpenclassrooms.TripTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -352,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CoursOpenclassrooms.TripTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
